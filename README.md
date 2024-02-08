@@ -5,9 +5,9 @@ The SSL Expiry Checker is a simple command-line tool written in Go that checks t
 ## Installation
 Needs golang 1.20+ installed.
 
-To use the timezone CLI, you need to have Go installed on your system. If you haven't installed Go, you can download it from the official Go website: https://golang.org/dl/
+To use the ssl-expiry tool, you need to have Go installed on your system. If you haven't installed Go, you can download it from the official Go website: https://golang.org/dl/
 
-Once you have Go installed, you can install the Timezone CLI using the following command:
+Once you have Go installed, you can install the ssl-expiry tool using the following command:
 
 ```bash
 go install github.com/usysrc/ssl-expiry@latest
