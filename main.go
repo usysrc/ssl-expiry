@@ -62,6 +62,10 @@ func main() {
 		return
 	}
 
+	if expiryDate.Before(time.Now()) {
+		fmt.Println("\033[31mWarning: The certificate has already expired!\033[0m")
+	}
+
 	remainingDays := CalculateRemainingDays(expiryDate)
 
 	fmt.Printf("Certificate Expiry Date: %s\n", expiryDate)
